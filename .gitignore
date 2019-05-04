@@ -1,3 +1,21 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Vagrant file
+.vagrant/
+
+# Test reports
+unittests.xml
+
+# database files
+db/*
+!db/.gitkeep
+
+# SonarQube Reports
+.scannerwork/
+.sonarlint/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
